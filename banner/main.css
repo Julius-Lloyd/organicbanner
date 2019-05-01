@@ -1,0 +1,336 @@
+
+.banner{
+	
+    width: 718px; 
+    height: 100px;
+    position: absolute;
+    background: #F7F2E9;
+	margin-left: 300px;
+
+}
+
+
+img.organic {
+	width: 215px;
+	height: 80px;
+	z-index: 1;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.logo {
+    animation-name: black-box-move;
+    width: 30px; 
+    height: 30px; 
+    top: 20px; 
+    left: 0px;
+    animation-fill-mode: both; 
+    transition-timing-function: linear;
+    }
+
+.friskeVare{
+	animation-name: text-from-top-to-middle, fade;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+    animation-fill-mode: both;
+    transition-timing-function: ease;
+    font-size: 2.5rem;
+    position: absolute;
+    top: -40px;
+    left: 30px;
+	margin-bottom: 200px;
+    z-index: 1;
+    color: #040f38;
+ font-family: 'PT Serif', serif;
+    text-align: center;
+	text-transform: capitalize;
+   line-height: 1;
+}
+
+.friskeRetter{
+	animation-name: text-from-top-to-middle, fade;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+    animation-fill-mode: both;
+	animation-delay: 4s;
+    transition-timing-function: linear;
+    font-size: 2.5rem;
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    z-index: 1;
+    color: #040f38;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+	text-transform: capitalize;
+   line-height: 1;
+}
+.godMad {
+	animation-name: text-god-mad, fade;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+    animation-fill-mode: both;
+	animation-delay: 15s;
+    transition-timing-function: linear;
+    font-size: 2.5rem;
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    z-index: 1;
+    color: #040f38;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+	text-transform: capitalize;
+   line-height: 1;
+}
+img.food1 {
+	width: 150px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.dining {
+    animation-name: dining-move, fade;
+    animation-duration: 5.5s;
+	animation-iteration-count: 1;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in;
+	animation-delay: 8s;
+     /*
+
+    animation-iteration-count  
+    
+    animation-iteration-count er antallet af gange en animation skal gentages. 
+    Det kan være et antal fx fire gentagelser: 
+
+    animation-iteration-count: 4;
+
+    eller uendelig mange
+
+    animation-iteration-count: infinite;
+    */
+    top: 0px;
+    left: 20px;
+    position: absolute;
+    }
+
+img.food2 {
+	width: 150px;
+	height: 100px;
+	
+}
+.marinate {
+    animation-name: marinate-move, fade;
+     animation-duration: 6.5s;
+	animation-iteration-count: 1;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in;
+	animation-delay: 8s;
+     /*
+
+    animation-iteration-count  
+    
+    animation-iteration-count er antallet af gange en animation skal gentages. 
+    Det kan være et antal fx fire gentagelser: 
+
+    animation-iteration-count: 4;
+
+    eller uendelig mange
+
+    animation-iteration-count: infinite;
+    */
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    }
+    img.food3 {
+	width: 150px;
+	height: 100px;
+	
+}
+ .suppe {
+    animation-name: suppe-move, fade;
+    animation-duration: 7.5s;
+	animation-iteration-count: 1;
+    animation-fill-mode: both;
+    transition-timing-function: ease-out;
+	animation-delay: 8s;
+     /*
+
+    animation-iteration-count  
+    
+    animation-iteration-count er antallet af gange en animation skal gentages. 
+    Det kan være et antal fx fire gentagelser: 
+
+    animation-iteration-count: 4;
+
+    eller uendelig mange
+
+    animation-iteration-count: infinite;
+    */
+   top: 0px;
+    left: 0px;
+    position: absolute;
+    }
+    
+ img.social1 {
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.faceB {
+    animation-name: social-face, fade2;
+    animation-duration: 18s;
+	animation-iteration-count: 1;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in;
+	animation-delay: 20s;
+    top: -40px;
+    left: 0px;
+    position: absolute;
+    }   
+ img.social2 {
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.insta {
+    animation-name: social-face, fade2;
+    animation-duration: 18s;
+	animation-iteration-count: 1;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in;
+	animation-delay: 20s;
+      top: -40px;
+    left: 50px;
+    position: absolute;
+    } 
+
+ img.social3 {
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+}
+
+.twitter {
+    animation-name: social-face, fade2;
+    animation-duration: 18s;
+	animation-iteration-count: 1;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in;
+	animation-delay: 20s;
+    top: -40px;
+    left: 100px;
+    position: absolute;
+    }  
+.myButton {
+	 animation-name: social-button, fade2;
+    animation-duration: 18s;
+	animation-iteration-count: 1;
+    animation-fill-mode: both;
+    transition-timing-function: ease-in;
+	animation-delay: 20s;
+    top: -40px;
+    left: 0px;
+    position: absolute;
+	background-color:#419B3A;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: PTserif;
+	font-size:18px;
+	padding:7px 48px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #77b55a));
+	background:-moz-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-webkit-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-o-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-ms-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a',GradientType=0);
+	background-color:#72b352;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+    
+       
+    @keyframes dining-move {
+            0% {transform: translate(220px, -100px);}
+            100% {
+                transform: translate(220px, 0px);
+               
+            }
+    
+        }
+
+@keyframes marinate-move {
+            0% {transform: translate(400px, -100px);}
+            100% {
+                transform: translate(400px, 0px);
+               
+            }
+    
+        }
+@keyframes suppe-move {
+            0% {transform: translate(560px, -100px);}
+	
+            100% {
+                transform: translate(560px, 0px);
+               
+            }
+    
+        }
+@keyframes text-from-top-to-middle {
+       0% {transform: translate(250px, 70px);}
+            100% {
+                transform: translate(250px, 70px);
+           
+        }
+	}
+@keyframes text-god-mad {
+       0% {transform: translate(250px, 70px);}
+            100% {
+                transform: translate(250px, 70px);
+           
+        }
+
+    }
+  @keyframes social-face {
+            0% {transform: translate(520px, 70px);}
+            100% {
+                transform: translate(520px, 70px);
+               
+            }
+    
+        }
+  @keyframes social-button {
+            0% {transform: translate(260px, 70px);}
+            100% {
+                transform: translate(260px, 70px);
+               
+            }
+    
+        }
+ @keyframes fade {
+        0% { opacity: 0; z-index: 1; }
+        85% { opacity: 1 ; z-index: 2; }
+        100%{ opacity: 0; z-index: 1; }
+    }
+ @keyframes fade2 {
+        0% { opacity: 0; z-index: 1; }
+	    50% { opacity: 1 ; z-index: 2; }
+        100%{ opacity: 1; z-index: 1; }
+    }
